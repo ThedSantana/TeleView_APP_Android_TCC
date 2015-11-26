@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fundo7"
+    android:weightSum="1">
+
+
+
+
+    <RelativeLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:weightSum="1"
+        android:id="@+id/relativeLayout"
+        android:background="#ead55c"
+        android:layout_weight="0.37">
+
+        <EditText
+            android:layout_width="330dp"
+            android:layout_height="30dp"
+            android:id="@+id/et_buscar"
+            android:background="#ffffff"
+            android:hint="Buscar por palavra-chave"
+            android:layout_gravity="center_horizontal"
+            android:foregroundGravity="center"
+            android:gravity="center"
+            android:layout_alignWithParentIfMissing="false"
+            android:layout_below="@+id/imageButton2"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="-3dp" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="Buscar"
+            android:id="@+id/btn_buscar"
+            android:background="#ff9253"
+            android:textColor="#FFFFFF"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/lupa"
+            android:layout_alignTop="@+id/et_buscar"
+            android:layout_alignParentEnd="true"
+            android:layout_alignBottom="@+id/et_buscar"
+            android:layout_marginRight="10dp" />
+
+        <ImageView
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageButton2"
+            android:src="@drawable/logo1"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="318dp"
+        android:weightSum="1"
+        android:gravity="center"
+        android:layout_weight="0.52">
+
+        <ImageButton
+            android:layout_width="100dp"
+            android:layout_height="110dp"
+            android:id="@+id/btn_restaurante"
+            android:src="@drawable/restaurante2" />
+
+        <ImageButton
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:id="@+id/btn_banco"
+            android:src="@drawable/bancos2"
+            android:layout_alignBottom="@+id/btn_restaurante"
+            android:layout_toRightOf="@+id/btn_restaurante"
+            android:layout_alignRight="@+id/btn_farmacia"
+            android:layout_alignEnd="@+id/btn_farmacia"
+            android:layout_alignTop="@+id/btn_restaurante" />
+
+        <ImageButton
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:id="@+id/btn_academia"
+            android:src="@drawable/academia2"
+            android:layout_below="@+id/btn_restaurante"
+            android:layout_alignLeft="@+id/btn_restaurante"
+            android:layout_alignStart="@+id/btn_restaurante"
+            android:layout_toLeftOf="@+id/btn_banco"
+            android:layout_toStartOf="@+id/btn_banco" />
+
+        <ImageButton
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:id="@+id/btn_farmacia"
+            android:src="@drawable/farmacias3"
+            android:layout_below="@+id/btn_restaurante"
+            android:layout_toRightOf="@+id/btn_restaurante"
+            android:layout_alignBottom="@+id/btn_academia" />
+
+        <ImageButton
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:id="@+id/btn_borracharia"
+            android:src="@drawable/borracharias"
+            android:layout_toRightOf="@+id/btn_farmacia"
+            android:layout_above="@+id/btn_hotel"
+            android:layout_alignTop="@+id/btn_banco" />
+
+        <ImageButton
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:id="@+id/btn_hotel"
+            android:src="@drawable/hoteis2"
+            android:layout_alignTop="@+id/btn_farmacia"
+            android:layout_alignLeft="@+id/btn_borracharia"
+            android:layout_alignStart="@+id/btn_borracharia"
+            android:layout_alignBottom="@+id/btn_farmacia"
+            android:layout_alignRight="@+id/btn_borracharia"
+            android:layout_alignEnd="@+id/btn_borracharia" />
+
+        <ImageButton
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:id="@+id/btn_supermercado"
+            android:src="@drawable/supermercados2"
+            android:layout_toRightOf="@+id/btn_teatro"
+            android:layout_below="@+id/btn_farmacia"
+            android:layout_alignRight="@+id/btn_farmacia"
+            android:layout_alignEnd="@+id/btn_farmacia"
+            android:layout_alignBottom="@+id/btn_teatro" />
+
+        <ImageButton
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:id="@+id/btn_posto"
+            android:src="@drawable/pdecombustiveis2"
+            android:layout_below="@+id/btn_hotel"
+            android:layout_alignLeft="@+id/btn_hotel"
+            android:layout_alignStart="@+id/btn_hotel"
+            android:layout_alignRight="@+id/btn_hotel"
+            android:layout_alignEnd="@+id/btn_hotel" />
+
+        <ImageButton
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:id="@+id/btn_teatro"
+            android:src="@drawable/teatros3"
+            android:layout_alignLeft="@+id/btn_academia"
+            android:layout_alignStart="@+id/btn_academia"
+            android:layout_toLeftOf="@+id/btn_farmacia"
+            android:layout_toStartOf="@+id/btn_farmacia"
+            android:layout_alignBottom="@+id/btn_posto"
+            android:layout_alignTop="@+id/btn_posto" />
+
+    </RelativeLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="64dp"
+        android:layout_weight="0.16">
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:text="Buscar no Mapa"
+            android:id="@+id/btn_busca_detalhada"
+            android:background="#ead55c"
+            android:textColor="#181818"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:gravity="center"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceInverse"
+            android:text="Desenvolvido por: Junio Moquiuti"
+            android:id="@+id/textView2"
+            android:textColor="#1c1c1c"
+            android:layout_below="@+id/btn_busca_detalhada"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_gravity="right"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="4dp" />
+
+    </LinearLayout>
+
+</LinearLayout>

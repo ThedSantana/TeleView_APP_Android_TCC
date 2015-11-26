@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fundo7"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1"
+        android:background="#ead55c">
+
+        <ImageView
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageButton2"
+            android:src="@drawable/logo1"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:weightSum="1"
+        android:id="@+id/ll2">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Escolha uma categoria"
+            android:id="@+id/textView"
+            android:layout_gravity="center_horizontal" />
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:id="@+id/sp_item_categoria"
+            android:layout_gravity="center_horizontal"
+            android:background="#ffffff"
+            android:layout_margin="10dp" />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:text="Buscar"
+            android:id="@+id/btn_buscar2"
+            android:layout_gravity="center_horizontal"
+            android:background="#ead55c"
+            android:textColor="#181818"
+            android:layout_margin="10dp" />
+
+        <fragment
+            android:id="@+id/map"
+            android:name="com.google.android.gms.maps.MapFragment"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp" />
+
+    </LinearLayout>
+
+    <!-- Porção de Interface da Activity -->
+
+</LinearLayout>

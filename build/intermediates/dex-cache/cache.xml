@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\Junio\Google Drive\UCDB\Trabalho TCC\Projeto Integrado 3\MyApplication\Projeto\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="a78183f30e769a98ab4820794f597763088d3065">
+        <dex dex="C:\Users\Junio\Google Drive\UCDB\Trabalho TCC\Projeto Integrado 3\MyApplication\Projeto\app\build\intermediates\pre-dexed\debug\classes-ce29cacde2c75d5397840df1f8462320b24fa2d7.jar" />
+    </item>
+    <item
+        jar="C:\Users\Junio\Google Drive\UCDB\Trabalho TCC\Projeto Integrado 3\MyApplication\Projeto\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="06a42becc33232ec0ee125161da68c1829c9f8fd">
+        <dex dex="C:\Users\Junio\Google Drive\UCDB\Trabalho TCC\Projeto Integrado 3\MyApplication\Projeto\app\build\intermediates\pre-dexed\debug\classes-ea3dce46674fb4292e882dfc6a3b2bc0d53c74ce.jar" />
+    </item>
+
+</items>
